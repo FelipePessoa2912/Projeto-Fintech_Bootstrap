@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MeuCapital</title>
+</head>
+<body class="bg-dark text-white">
+    <header class="bg-secondary py-3 text-center shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-light">MeuCapital</h1>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-info" href="#">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-info" href="#">Investimentos</a></li>
+                <li class="nav-item"><a class="nav-link text-info" href="#">Educação Financeira</a></li>
+            </ul>
+            <img class="rounded-circle border border-info" src="user.png" alt="Perfil" width="40" height="40">
+        </div>
+    </header>
+    <main class="container py-4 d-flex flex-column flex-lg-row gap-4">
+        <div class="flex-grow-1 d-flex flex-column gap-4">
+            <section class="bg-secondary p-4 rounded shadow d-flex justify-content-between align-items-center">
+                <div>
+                    <h2 class="text-info">Saldo R$</h2>
+                    <h3 id="value" class="text-light">0</h3>
+                    <h4 class="text-light">Extrato Bancário</h4>
+                </div>
+                <img class="img-fluid" src="piggy.png" alt="Porco" style="max-width: 100px;">
+            </section>
+            <section class="bg-secondary p-4 rounded shadow">
+                <div class="row text-center">
+                    <div class="col-md-4 mb-3">
+                        <button class="btn btn-outline-info w-100">Pagamentos</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <button class="btn btn-outline-info w-100">Investir</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <button class="btn btn-outline-info w-100">Transferências</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <button class="btn btn-outline-info w-100">Carteira de Investimento</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <button class="btn btn-outline-info w-100">Reserva Econômica</button>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <button class="btn btn-outline-info w-100">Resgatar Pontos</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <aside class="bg-secondary p-4 rounded shadow" style="width: 350px;">
+            <h2 class="text-info">Meus Estudos</h2>
+            <h3 class="text-light">1. Como administrar o seu dinheiro da maneira correta?</h3>
+            <div class="d-flex flex-column gap-3">
+                <div class="d-flex bg-dark text-white p-3 rounded">
+                    <img src="play.png" alt="Carregar vídeo" class="me-3" width="30" height="30">
+                    <div>
+                        <h4 class="text-info">Como Fazer Seu Salário Durar o Mês Inteiro</h4>
+                        <img src="time_line.png" alt="Tempo de vídeo" class="mt-2 w-100">
+                    </div>
+                </div>
+                <div class="d-flex bg-dark text-white p-3 rounded">
+                    <img src="play.png" alt="Carregar vídeo" class="me-3" width="30" height="30">
+                    <div>
+                        <h4 class="text-info">Erros Comuns na Administração do Dinheiro e Como Evitá-los</h4>
+                        <img src="time_line.png" alt="Tempo de vídeo" class="mt-2 w-100">
+                    </div>
+                </div>
+                <div class="d-flex bg-dark text-white p-3 rounded">
+                    <img src="play.png" alt="Carregar vídeo" class="me-3" width="30" height="30">
+                    <div>
+                        <h4 class="text-info">Método Prático Para Organizar Suas Finanças Pessoais</h4>
+                        <img src="time_line.png" alt="Tempo de vídeo" class="mt-2 w-100">
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="bg-dark py-3 text-center text-info shadow">
+        <p>MeuCapital © 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
